@@ -32,3 +32,10 @@ if (str[i] == symbol)
 {
 nomer = num;
 }
+
+}
+if (nomer == 0) { cout << "No symbol found"; }
+else { cout << "Номер символа в строке " << nomer; }
+}
+else { cout << "Не является строкой"; }
+}
